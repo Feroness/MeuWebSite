@@ -41,10 +41,6 @@ nav#menu a {
 }
 body {
 background-color: rgb(221, 221, 221);	
-  width:90%;
-    margin:auto;
-    min-width:600px;
-    max-width:2000px
 }
 p#firsttext {
     position: absolute;
