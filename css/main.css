@@ -8,12 +8,14 @@ h1 {
     left: 35px;
     color: rgb(108, 89, 201);
     text-shadow: 0px 0px 50px rgb(0, 102, 255);
+    width: 100%;
 }
 nav#menu ul  {
     list-style: none;
     position: absolute;
     top: 0px;
     left: 850px;
+    width: 100%;
 }
 nav#menu li {
     display: inline-block;
@@ -24,6 +26,7 @@ nav#menu li {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     transition: 0.3s;
+    width: 100%;
 }
 nav#menu li:hover {
     font-size: 23pt;
@@ -38,9 +41,11 @@ nav#menu a {
     text-decoration: none;
     color: black;
     cursor: url("../img/customcursor/Link-Select.png"), pointer;
+    width: 100%;
 }
 body {
 background-color: rgb(221, 221, 221);	
+    width: 100%;
 }
 p#firsttext {
     position: absolute;
@@ -50,6 +55,7 @@ p#firsttext {
     font-family: 'Montserrat', sans-serif;
     color:rgb(0, 102, 255);
     text-shadow: 0px 0px 10px rgb(108, 89, 201);
+    width: 100%;
 }
 p#secondtext {
     position: absolute;
@@ -59,6 +65,7 @@ p#secondtext {
     text-shadow: 0px 0px 10px rgb(108, 89, 201);
     top: 300px;
     left: 87px;
+    width: 100%;
 }
 p#thirdtext {
     position: absolute;
@@ -68,6 +75,7 @@ p#thirdtext {
     text-shadow: 0px 0px 10px rgb(108, 89, 201);
     top: 930px;
     left: 115px;
+    width: 100%;
 }
 p#fourthtext {
     position: absolute;
@@ -77,6 +85,7 @@ p#fourthtext {
     text-shadow: 0px 0px 10px rgb(108, 89, 201);
     top: 980px;
     left: 255px;
+    width: 100%;
 }
 button#btsubscribe {
     position: absolute;
@@ -88,10 +97,12 @@ button#btsubscribe {
     background-color: red;
     color: white;
     padding: 30px 70px 30px 70px;
+    width: 100%;
 }
 a#btsub {
     color: white;
     text-decoration: none;
+    width: 100%;
 }
 img#imgyt {
     width: 750px;
@@ -99,6 +110,7 @@ img#imgyt {
     position: absolute;
     top: 375px;
     left: 250px;
+    width: 100%;
 }
 ::-webkit-scrollbar {
     width: 12px;
